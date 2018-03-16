@@ -40,19 +40,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 int age = Integer.valueOf(etAge.getText().toString().trim());
                 if (sex.equals("male")) {
                     if (age > 35) {
-                        Suggestion.setText("找對象");
+                        Suggestion.setText("find couple");
                     } else if (age <= 35 && age >= 30) {
                         Suggestion.setText("get married");
                     } else {
-                        Suggestion.setText("不急");
+                        Suggestion.setText("not hurry");
                     }
                 } else if (sex.equals("female")) {
                     if (age > 32) {
-                        Suggestion.setText("");
+                        Suggestion.setText("find couple");
                     } else if (age <= 32 && age >= 28) {
                         Suggestion.setText("get married");
                     } else {
-                        Suggestion.setText("不急");
+                        Suggestion.setText("not hurry");
                     }
                 }
         }

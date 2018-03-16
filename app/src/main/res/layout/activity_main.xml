@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint=""
+        android:hint="please enter sex(in English)"
         android:inputType="textPersonName" />請輸入性別(male or female)
 
     <TextView
@@ -48,6 +48,6 @@
         android:id="@+id/suggestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="建議"
+        android:text="@string/suggestion"
         android:textSize="25sp" />
 </LinearLayout>
