@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">作業六:盧冠宇</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="dice">骰骰子</string>
+
+    <string name="play_scissors">剪刀</string>
+    <string name="play_stone">石頭</string>
+    <string name="play_paper">布</string>
+
+    <string name="player_win">You Win！</string>
+    <string name="player_lose">You Lose！</string>
+    <string name="player_draw">Draw！</string>
+    <string name="prompt_title">和電腦丟骰子</string>
+    <string name="result">判定輸贏：</string>
+
+    <string name="total_set">All Game：</string>
+    <string name="player_win_set">Player win!：</string>
+    <string name="computer_win_set">Computer win!：</string>
+    <string name="draw">Draw：</string>
+
+    <string name="btn_show_result1">顯示結果1</string>
+    <string name="btn_show_result2">顯示結果2</string>
+    <string name="btn_hidden_result">隱藏結果</string>
+
+
+</resources>
