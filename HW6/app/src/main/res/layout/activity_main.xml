@@ -1,21 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="horizontal">
 
-    <fragment
-        android:id="@+id/fragMain"
-        android:name="com.example.admin.hw6.MainFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
-    <FrameLayout
-        android:id="@+id/fragment_container"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone"/>
+        android:layout_above="@+id/imgDice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:text="丟骰子"
+        android:textSize="40sp" />
 
+    <ImageView
+        android:id="@+id/imgDice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/dice01" />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgDice"
+        android:layout_marginTop="38dp"
+        android:layout_toStartOf="@+id/textView"
+        android:text="GO" />
+
+    <Button
+        android:id="@+id/btnresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnstart"
+        android:layout_alignBottom="@+id/btnstart"
+        android:layout_toEndOf="@+id/imgDice"
+        android:text="Result" />
+
+</RelativeLayout>
