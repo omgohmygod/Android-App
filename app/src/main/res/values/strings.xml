@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">appHw1</string>
-    <string name="sex">性別</string>
-    <string name="age">年齡</string>
-    <string name="ok">確定</string>
-    <string name="hintage">請輸入年齡</string>
-    <string name="hintsex">請輸入性別</string>
-    <string name="suggestion">建議</string>
-</resources>
