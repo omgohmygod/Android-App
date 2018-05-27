@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">作業8:盧冠宇</string>
+
+    <string-array name="item">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+</resources>
