@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HW10:盧冠宇</string>
+    <string name="add_new_contact">AddNewContact</string>
+    <string name="text_search_name">依資料搜尋</string>
+    <string-array name="phonetype">
+        <item>手機</item>
+        <item>家電</item>
+        <item>公司</item>
+    </string-array>/>
+</resources>
