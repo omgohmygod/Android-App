@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">作業11:盧冠宇</string>
+    <string name="name">姓名：</string>
+    <string name="inputname">輸入姓名</string>
+    <string name="phone">電話號碼：</string>
+    <string name="inputphone">輸入電話號碼：</string>
+    <string name="phonetype">請選擇電話類型</string>
+    <string name="addcontact">新增聯絡人</string>
+    <string name="delcontact">刪除聯絡人資料</string>
+    <string name="text_search_name">依資料搜尋</string>
+    <string-array name="phonetype">
+        <item>手機</item>
+        <item>家電</item>
+        <item>辦公室</item>
+    </string-array>
+    <string name="btnclear">Clear</string>
+    <string name="btnsubmit">Adding a new contact</string>
+    <string name="textname">Name</string>
+    <string name="textphone">Phone Number</string>
+    <string name="textnumbertype">The Type of Phone Number</string>
+
+</resources>
